@@ -1,0 +1,11 @@
+!!! 5
+%html
+  %head
+    %title INSERT TITLE HERE
+    %link{ rel: 'stylesheet', href: '/stylesheets/default_styles.css' }
+    %link{ rel: 'stylesheet', href: '/stylesheets/style.css' }
+  %body
+    .container= yield
+
+    %script{ src: '/javascripts/jquery.min.js' }
+    %script{ src: '/javascripts/script.js' }
